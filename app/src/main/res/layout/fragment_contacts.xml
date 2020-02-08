@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ContactsFragment"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp"
+    >
+
+
+    <Button
+        android:id="@+id/call_us_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_ui"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:text="Call Us"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/email_us_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bt_uifb"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:text="Send Us Email"
+        android:textColor="@color/colorBlue"
+        android:textAllCaps="false"
+
+        />
+    <Button
+        android:id="@+id/supermarket_location_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_ui"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:text="SuperMarket Location"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+
+        />
+</LinearLayout>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ProfileFragment">
+
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="-56dp"
+        android:src="@drawable/circle" />
+
+    <ImageView
+        android:id="@+id/circle2"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-100dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/circletransparant" />
+
+    <ImageView
+        android:id="@+id/circle3"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-80dp"
+        android:layout_marginBottom="-30dp"
+        android:src="@drawable/circle" />
+
+
+
+    <ImageView
+        android:id="@+id/circle4"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-50dp"
+        android:layout_marginBottom="-50dp"
+        android:src="@drawable/circletransparant" />
+
+
+
+    <ImageView
+        android:id="@+id/circle6"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-50dp"
+        android:layout_marginTop="-85dp"
+        android:src="@drawable/circle" />
+
+    <ImageView
+        android:id="@+id/circle5"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-51dp"
+        android:layout_marginTop="31dp"
+        android:src="@drawable/circletransparant" />
+
+
+    <LinearLayout
+        android:background="@color/medium_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".fragments.ProfileFragment"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/profile_name_tv"
+                android:textSize="16sp"
+                android:textColor="@color/Black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Name"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/profile_name_edit_iv"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_pencil" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/profile_last_name_tv"
+                android:textSize="16sp"
+                android:textColor="@color/Black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Last Name"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/profile_last_name_edit_iv"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_pencil" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/profile_email_tv"
+                android:textSize="16sp"
+                android:textColor="@color/Black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Email"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/profile_email_edit_iv"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_pencil" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/profile_phone_tv"
+                android:textSize="16sp"
+                android:textColor="@color/Black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Phone"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/profile_phone_edit_iv"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_pencil" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/profile_city_tv"
+                android:textSize="16sp"
+                android:textColor="@color/Black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="City"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/profile_city_edit_iv"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_pencil" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/profile_gender_tv"
+                android:textSize="16sp"
+                android:textColor="@color/Black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Gender"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/profile_gender_edit_iv"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_pencil" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/profile_password_tv"
+                android:textSize="16sp"
+                android:textColor="@color/Black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Password"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/profile_password_edit_iv"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_pencil" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
